@@ -1,0 +1,20 @@
+.button-global {
+  background-color: var(--greenish) !important;
+  font-family: "Lustria" !important;
+  font-weight: bold !important;
+  color: #fff !important;
+}
+
+.button-icon {
+  visibility: none !important;
+}
+
+.button-global:hover {
+  background-color: var(--yellowish) !important;
+  transition: 1s !important;
+  color: #000 !important;
+}
+
+.button-global:hover .button-icon {
+  visibility: visible !important;
+}

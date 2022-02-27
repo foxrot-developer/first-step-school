@@ -7,11 +7,10 @@
     url("../images/slider1.jpg");
   background-position: center;
   background-size: cover;
-  height: 70vh;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 100s;
 }
 
 .home-header:hover {
@@ -21,16 +20,45 @@
       rgba(163, 143, 105, 0.73)
     ),
     url("../images/slider2.jpg");
+  transition: 2s;
 }
 
 .header-heading {
   font-family: "Lustria";
   font-size: 50px;
   font-weight: bold;
+  color: var(--redish);
 }
 
 .header-subheading {
   font-family: "Lato";
   font-size: 30px;
   font-weight: bold;
+}
+
+.section-image {
+  border: 10px;
+  box-shadow: 0 0 10px #000;
+  width: 80%;
+}
+
+.section-image:hover {
+  transform: scale(0.9) rotate(-2deg);
+  transition: 1.5s;
+}
+
+.main-heading {
+  font-family: "Lustria";
+  font-weight: bold;
+  color: var(--redish);
+}
+
+.heading-content {
+  font-family: "Lato";
+  font-size: 20px;
+  text-align: justify;
+}
+
+.grey-section {
+  background-color: #e0e0e0;
 }
