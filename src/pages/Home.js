@@ -50,6 +50,34 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className='container py-3'>
+                <div className='row mt-5'>
+                    <div className='col-xs-12 col-md-6 text-xs-center text-md-start'>
+                        <img src={about} alt="About" className='img-fluid rounded section-image' />
+                    </div>
+                    <div className='col-xs-12 col-md-6 text-xs-center text-md-start pt-3'>
+                        <h2 className='main-heading'>PROGRAMS</h2>
+                        <p className='heading-content'>This is the content for school programs</p>
+                        <Button>OUR PROGRAMS</Button>
+                    </div>
+                </div>
+            </div>
+            <div className='grey-section py-3'>
+                <div className='container'>
+                    <div className='row mt-5'>
+                        <div className='col-xs-12 col-md-6 text-xs-center text-md-start py-3'>
+                            <h2 className='main-heading'>OTHER ACTIVITIES</h2>
+                            <p className='heading-content'>This is the content for school syllabus</p>
+                            <Button>SPORTS</Button>
+                            <p className='heading-content'>This is the content for school syllabus</p>
+                            <Button>ART & CRAFT</Button>
+                        </div>
+                        <div className='col-xs-12 col-md-6 text-xs-center text-md-start'>
+                            <img src={about} alt="About" className='img-fluid rounded section-image' />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </React.Fragment>
     )
 }

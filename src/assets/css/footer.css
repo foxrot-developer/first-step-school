@@ -1,0 +1,55 @@
+.school-logo-footer {
+  max-width: 150px !important;
+}
+
+.footer-logo-heading {
+  font-family: "Lustria";
+  font-weight: bold;
+}
+
+.footer-logo-subheading {
+  font-family: "Lato";
+}
+
+.footer-section {
+  border-top: 2px solid #000;
+  background-color: var(--yellowish);
+}
+
+.imp-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.imp-links a {
+  text-decoration: none;
+  color: #000;
+  /* font-weight: bold; */
+  margin-top: 10px;
+  font-family: "Lato";
+}
+
+.imp-links a:hover {
+  color: var(--redish);
+}
+
+.footer-link-heading {
+  font-family: "Lustria";
+  font-weight: bold;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.social-links svg {
+  font-size: 30px;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.social-links svg:hover {
+  color: var(--redish);
+}
